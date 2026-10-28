@@ -120,6 +120,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
+    - _NoiseIntencity: 0
     - _Normal_Intensity: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02

@@ -1,8 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LightingToggle : MonoBehaviour
 {
-    public Material material;
+    public List<Material> materials;
     public Material pixelMat;
     public Shader wireframe;
     public Shader pixel;
@@ -43,15 +44,24 @@ public class LightingToggle : MonoBehaviour
         {
             case 1:
                 diffuse = !diffuse;
-                material.SetInt("_Diffuse", diffuse ? 1 : 0);
+                foreach (Material mat in materials)
+                {
+                    mat.SetInt("_Diffuse", diffuse ? 1 : 0);
+                }
                 break;
             case 2:
                 ambient = !ambient;
-                material.SetInt("_Ambient", ambient ? 1 : 0);
+                foreach (Material mat in materials)
+                {
+                    mat.SetInt("_Ambient", ambient ? 1 : 0);
+                }
                 break;
             case 3:
                 specular = !specular;
-                material.SetInt("_Specular", specular ? 1 : 0);
+                foreach (Material mat in materials)
+                {
+                    mat.SetInt("_Specular", specular ? 1 : 0);
+                }
                 break;
             case 4:
                 _wireframe = !_wireframe;
