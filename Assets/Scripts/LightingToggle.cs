@@ -4,12 +4,14 @@ public class LightingToggle : MonoBehaviour
 {
     public Material material;
     public Material pixelMat;
+    public Shader wireframe;
     public Shader pixel;
     public Shader _default;
     public bool diffuse = true;
     public bool ambient = true;
     public bool specular = true;
-    public bool _pixel = true;
+    public bool _wireframe = false;
+    public bool _pixel = false;
 
     void Update()
     {
@@ -28,6 +30,10 @@ public class LightingToggle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             SetLighting(4);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            SetLighting(5);
         }
     }
 
@@ -48,10 +54,14 @@ public class LightingToggle : MonoBehaviour
                 material.SetInt("_Specular", specular ? 1 : 0);
                 break;
             case 4:
-                _pixel = !_pixel;
-                pixelMat.shader = _pixel ? pixel : _default;
+                _wireframe = !_wireframe;
+                _pixel = false;
+                pixelMat.shader = _wireframe ? wireframe : _default;
                 break;
             case 5:
+                _pixel = !_pixel;
+                _wireframe = false;
+                pixelMat.shader = _pixel ? pixel : _default;
                 break;
         }
     }

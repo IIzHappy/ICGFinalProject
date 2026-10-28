@@ -397,11 +397,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
   pixelMat: {fileID: 2100000, guid: 6e7f96fbf95e31947a8c6e311d336861, type: 2}
+  wireframe: {fileID: 4800000, guid: 9b69552ab06423d4497531f8da0615f9, type: 3}
   pixel: {fileID: -6465566751694194690, guid: 1ece061bdd651c4478dd6613ca538614, type: 3}
   _default: {fileID: -6465566751694194690, guid: b2224c69bfee0f24ab6ad0cd09ae4ef9, type: 3}
   diffuse: 1
   ambient: 1
   specular: 1
+  _wireframe: 1
   _pixel: 1
 --- !u!1 &923535077 stripped
 GameObject:
