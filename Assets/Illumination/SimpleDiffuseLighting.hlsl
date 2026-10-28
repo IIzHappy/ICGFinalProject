@@ -25,10 +25,10 @@ void SimpleDiffuseLighting_float(
     AmbientSH = float3(0.15, 0.15, 0.15);
 #else
 // Actual URP scene lighting.
-float3 normalWS = normalize(NormalWS);
-Light mainLight = GetMainLight();
-MainLightColour = mainLight.color.rgb;
-NdotL = saturate(
+    float3 normalWS = normalize(NormalWS);
+    Light mainLight = GetMainLight();
+    MainLightColour = mainLight.color.rgb;
+    NdotL = saturate(
     dot(normalWS, mainLight.direction)
 );
 
