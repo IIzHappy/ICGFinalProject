@@ -167,10 +167,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 819590674294403785, guid: 0827672fa33cc7140b1bc404ebd5157c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
     - target: {fileID: 919132149155446097, guid: 0827672fa33cc7140b1bc404ebd5157c, type: 3}
       propertyPath: m_Name
       value: BaseRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 2374969586680878768, guid: 0827672fa33cc7140b1bc404ebd5157c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
+    - target: {fileID: 4860203782221678022, guid: 0827672fa33cc7140b1bc404ebd5157c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
+    - target: {fileID: 7042690588497701199, guid: 0827672fa33cc7140b1bc404ebd5157c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -208,14 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d7c214d82c8a047ab5e9c838ef9565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
-  gravity: -9.81
-  jumpHeight: 1.5
-  groundCheck: {fileID: 1135595233}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!65 &679243743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -599,6 +607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016562539}
   - component: {fileID: 2016562538}
+  - component: {fileID: 2016562540}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -686,6 +695,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &2016562540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016562537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ void SimpleDiffuseLighting_float(
     NdotL = saturate(dot(normalWS, previewLightDirection));
     float3 halfDir = normalize(previewLightDirection + normalVD);
     float NdotH = saturate(dot(normalWS, halfDir));
-    float specPower = pow(NdotH, max(Smoothness, 1.0));
+    float specPower = pow(NdotH, max(Smoothness, 1));
     Specular = specPower * MainLightColour;
     AmbientSH = float3(0.15, 0.15, 0.15);
 #else
