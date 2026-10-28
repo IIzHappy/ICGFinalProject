@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 10.0f;
     private float translation;
-    private float straffe;
+    private float strafe;
 
     void Start()
     {
@@ -14,14 +14,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // You can furthor set it on Unity. (Edit, Project Settings, Input)
         translation = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        straffe = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-        transform.Translate(straffe, 0, translation);
+        strafe = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        transform.Translate(strafe, 0, translation);
 
         if (Input.GetKeyDown("escape"))
         {
-            // turn on the cursor
             Cursor.lockState = CursorLockMode.None;
         }
     }
