@@ -3111,8 +3111,8 @@
     "m_ObjectId": "397f68698deb40e8b13351121314bd2d",
     "m_Title": "AspectRatio",
     "m_Position": {
-        "x": -3708.00048828125,
-        "y": 359.0000305175781
+        "x": -3707.999755859375,
+        "y": 358.9999694824219
     }
 }
 
@@ -3300,8 +3300,8 @@
     "m_ObjectId": "4244844efae54de6b02b80683241e85b",
     "m_Title": "Pixelation",
     "m_Position": {
-        "x": -1925.0001220703125,
-        "y": 292.00006103515627
+        "x": -1924.9998779296875,
+        "y": 291.9999694824219
     }
 }
 
@@ -5423,7 +5423,7 @@
         "m_SerializableColors": []
     },
     "m_Texture": {
-        "m_SerializedTexture": "",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":8400000,\"guid\":\"755768165ed83b14fbbef619a0288930\",\"type\":2}}",
         "m_Guid": ""
     }
 }
@@ -6176,7 +6176,7 @@
     "m_ObjectId": "aceaab3495ad435f986ab772533cfd82",
     "m_Title": "Grid",
     "m_Position": {
-        "x": -2722.000244140625,
+        "x": -2721.999755859375,
         "y": -388.0
     }
 }
