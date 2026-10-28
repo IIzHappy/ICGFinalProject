@@ -1051,6 +1051,7 @@ GameObject:
   - component: {fileID: 1698881751}
   - component: {fileID: 1698881750}
   - component: {fileID: 1698881749}
+  - component: {fileID: 1698881755}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1190,6 +1191,33 @@ Transform:
   - {fileID: 1207818142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1698881755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698881748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6aeeb7051887c4bb0fe8bfa6f2e9cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 5b3482a617cd01d4abdcfcc93f1231ba, type: 2}
+  - {fileID: 2100000, guid: 9b5af8a93de06ab41bc412d89201490c, type: 2}
+  - {fileID: 2100000, guid: c3782dc30198c3846922f052dc8b74ce, type: 2}
+  - {fileID: 2100000, guid: 006a5ec6107f1c64b9db1ff8cb7250f5, type: 2}
+  - {fileID: 2100000, guid: 9f4828cc80ee04d41af4d8d5f5e4643f, type: 2}
+  pixelMat: {fileID: 2100000, guid: 6e7f96fbf95e31947a8c6e311d336861, type: 2}
+  wireframe: {fileID: 4800000, guid: 9b69552ab06423d4497531f8da0615f9, type: 3}
+  pixel: {fileID: -6465566751694194690, guid: 1ece061bdd651c4478dd6613ca538614, type: 3}
+  _default: {fileID: -6465566751694194690, guid: b2224c69bfee0f24ab6ad0cd09ae4ef9, type: 3}
+  diffuse: 1
+  ambient: 1
+  specular: 1
+  _wireframe: 1
+  _pixel: 1
 --- !u!1 &1923845752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,6 +1229,7 @@ GameObject:
   - component: {fileID: 1923845753}
   - component: {fileID: 1923845756}
   - component: {fileID: 1923845754}
+  - component: {fileID: 1923845755}
   m_Layer: 0
   m_Name: PixelCam
   m_TagString: Untagged

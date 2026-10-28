@@ -29,9 +29,9 @@ public class CycleLUTs : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
+            Debug.Log("ASYDGD");
             count++;
-            TextureParameter temp = new TextureParameter(LUTs[count % LUTs.Length]);
-            CLUT.texture = temp;
+            CLUT.texture.value = LUTs[count % LUTs.Length];
         }
     }
 }
