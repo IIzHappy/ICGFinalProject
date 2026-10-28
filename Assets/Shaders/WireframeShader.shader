@@ -2,11 +2,8 @@ Shader "Unlit/WireframeShader"
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
         _WireframeColour ("Wireframe colour", color) = (1.0, 1.0, 1.0, 1.0)
         _WireframeScale ("Wireframe scale", float) = 1.5
-        
-        [Toggle] _QUADS("Show only quads", Integer) = 0
     }
     SubShader
     {
@@ -19,14 +16,12 @@ Shader "Unlit/WireframeShader"
             Cull Off
             ZWrite Off
 
-            CGPROGRAM
+            HLSLPROGRAM
             #pragma vertex vert
             #pragma geometry geom
             #pragma fragment frag
             // make fog work
             #pragma multi_compile_fog
-
-            #pragma shader_feature _QUADS_ON
 
             #include "UnityCG.cginc"
 
@@ -67,7 +62,7 @@ Shader "Unlit/WireframeShader"
 
                 g2f o;
 
-                o.pos = UnityObjectToClipPos(IN[0].vertex);
+                o.pos = UnityObjectToClipPos(IN[0].vertex);   
                 o.barycentric = float3 (1, 0, 0) + modifier;
                 triStream.Append(o);
 
@@ -91,7 +86,7 @@ Shader "Unlit/WireframeShader"
 
                 return fixed4(_WireframeColour.r, _WireframeColour.g, _WireframeColour.b, alpha);
             }
-            ENDCG
+            ENDHLSL
         }
     }
 }
