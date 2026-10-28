@@ -2118,7 +2118,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 5.0,
+    "m_Value": 3.0,
     "m_FloatType": 2,
     "m_RangeValues": {
         "x": 0.0,
@@ -3111,8 +3111,8 @@
     "m_ObjectId": "397f68698deb40e8b13351121314bd2d",
     "m_Title": "AspectRatio",
     "m_Position": {
-        "x": -3707.999755859375,
-        "y": 358.9999694824219
+        "x": -3708.000244140625,
+        "y": 357.60003662109377
     }
 }
 
@@ -3300,8 +3300,8 @@
     "m_ObjectId": "4244844efae54de6b02b80683241e85b",
     "m_Title": "Pixelation",
     "m_Position": {
-        "x": -1924.9998779296875,
-        "y": 291.9999694824219
+        "x": -1925.5999755859375,
+        "y": 290.39996337890627
     }
 }
 
@@ -6176,8 +6176,8 @@
     "m_ObjectId": "aceaab3495ad435f986ab772533cfd82",
     "m_Title": "Grid",
     "m_Position": {
-        "x": -2721.999755859375,
-        "y": -388.0
+        "x": -2722.400146484375,
+        "y": -389.6000061035156
     }
 }
 
