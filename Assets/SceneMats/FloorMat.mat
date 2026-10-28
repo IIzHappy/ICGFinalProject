@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FloorMat
-  m_Shader: {fileID: -6465566751694194690, guid: 98911c236dbd92240b78a11695b341fa, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: a515d2b5a2b1c6946b3e0bce7c13e209, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -114,8 +114,8 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _NoiseIntencity: 0.5
-    - _NoiseIntensity: 0.65
-    - _NoiseTilling: 2.54
+    - _NoiseIntensity: 1.07
+    - _NoiseTilling: 2.82
     - _Normal_Intensity: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -134,10 +134,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.3584906, g: 0.3193039, b: 0.30505517, a: 1}
+    - _BaseColor: {r: 0.18490559, g: 0.18490559, b: 0.18490559, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NoiseColour: {r: 0.4490565, g: 0.3636771, b: 0.3380633, a: 0}
+    - _NoiseColour: {r: 0.3509434, g: 0.3509434, b: 0.3509434, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
