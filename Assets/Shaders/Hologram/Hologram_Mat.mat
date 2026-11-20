@@ -44,6 +44,7 @@ Material:
     - _GlitchAmount: 0.7
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _StripeScrollSpeed: 5
     - _StripeThickness: 0.32
     - _StripeTiling: 30
     m_Colors:
