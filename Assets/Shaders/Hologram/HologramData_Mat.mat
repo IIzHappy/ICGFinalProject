@@ -61,10 +61,11 @@ Material:
     m_Floats:
     - _Fresnel: 2
     - _GlitchAmount: 0.7
-    - _NumberSize: 0.15
+    - _NumberSize: 0.14
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _StripeThickness: 0.2
+    - _ScrollSpeed: -0.5
+    - _StripeThickness: 0
     - _StripeTiling: 8.43
     m_Colors:
     - _BaseColour: {r: 0, g: 0, b: 0, a: 0.1019608}
