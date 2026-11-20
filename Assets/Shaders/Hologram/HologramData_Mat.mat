@@ -60,19 +60,19 @@ Material:
     m_Ints: []
     m_Floats:
     - _Fresnel: 2
-    - _GlitchAmount: 0.7
+    - _GlitchAmount: 0.803
     - _NumberSize: 0.14
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ScrollSpeed: -0.5
-    - _StripeThickness: 0
+    - _StripeThickness: 0.114
     - _StripeTiling: 8.43
     m_Colors:
-    - _BaseColour: {r: 0, g: 0, b: 0, a: 0.1019608}
-    - _GlitchColour: {r: 1, g: 1, b: 1, a: 0}
-    - _GlitchSize: {r: 20, g: 50, b: 0, a: 0}
-    - _NumberColour: {r: 1, g: 1, b: 1, a: 0.6392157}
-    - _RimColour: {r: 1, g: 1, b: 1, a: 0.6980392}
-    - _StripeColour: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColour: {r: 0.0015165318, g: 0.2679245, b: 0.10576316, a: 0.1019608}
+    - _GlitchColour: {r: 1, g: 1, b: 1, a: 0.45882353}
+    - _GlitchSize: {r: 1, g: 0.7, b: 0, a: 0}
+    - _NumberColour: {r: 0.061365366, g: 1, b: 0, a: 0.85882354}
+    - _RimColour: {r: 0.6, g: 1, b: 0.87972146, a: 0.6980392}
+    - _StripeColour: {r: 0, g: 0.4264151, b: 0.08364622, a: 0.21568628}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
