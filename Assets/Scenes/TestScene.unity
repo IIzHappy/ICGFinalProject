@@ -701,6 +701,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8095360746724113940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9249978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.061546743
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.4059834
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794344808831666718, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127229600174301460, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
+      propertyPath: m_Name
+      value: HologramDataTriggerBox
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 307007f64587c984282a32c3e3b1a254, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -710,3 +767,4 @@ SceneRoots:
   - {fileID: 195445677}
   - {fileID: 1950982931}
   - {fileID: 108091724}
+  - {fileID: 8095360746724113940}
